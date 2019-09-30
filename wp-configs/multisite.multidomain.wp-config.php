@@ -25,7 +25,6 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 define( 'WP_ALLOW_MULTISITE', true );
-define( 'COOKIE_DOMAIN', 'mytoplevel.domain' ); // only root domain
 define( 'COOKIEPATH',  $_SERVER['HTTP_HOST'] . '/' ); // You should set this explicitely.
 define( 'SITECOOKIEPATH', $_SERVER['HTTP_HOST'] . '/' ); // You should set this explicitely.
 define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'wp-admin' );
