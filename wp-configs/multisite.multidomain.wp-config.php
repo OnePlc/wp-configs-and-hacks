@@ -25,7 +25,4 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 define( 'WP_ALLOW_MULTISITE', true );
-define( 'COOKIEPATH',  $_SERVER['HTTP_HOST'] . '/' ); // You should set this explicitely.
-define( 'SITECOOKIEPATH', $_SERVER['HTTP_HOST'] . '/' ); // You should set this explicitely.
-define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'wp-admin' );
-define( 'PLUGINS_COOKIE_PATH', preg_replace( '|https?://[^/]+|i', '', WP_PLUGIN_URL ) );
+define('COOKIE_DOMAIN', $_SERVER['HTTP_HOST']);
